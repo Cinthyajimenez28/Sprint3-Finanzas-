@@ -61,9 +61,14 @@ h6,
     font-weight: 500;
 }
 
-.btn-primary,
-.btn-outline-primary:hover {
-    color: var(--light);
+.btn-primary {
+    background-color: #004085; /* Cambia a un color de fondo con mayor contraste */
+    color: #ffffff; /* Asegura que el color del texto sea suficientemente legible */
+}
+
+.btn-primary:hover {
+    background-color: #003366; /* Un color de fondo ligeramente más oscuro para el hover */
+    color: #ffffff;
 }
 
 .btn-square {
